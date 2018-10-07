@@ -12,7 +12,7 @@ At this point, you are forced to work with the facial movements I chose but I am
 Special thanks to **Adrian Rosebrock** for his amazing blog posts [[2](#references)] [[3](#references)], code snippets and his imutils library [[7](#references)] that played an important role in making this idea of mine a reality.
 
 ## Working Example
-*GIF of the usage
+<img src="https://github.com/akshaychandra111/Mouse_Cursor_Control_Handsfree/blob/master/demo.gif">
 
 ## Code Requirements
 * Numpy - 1.13.3
