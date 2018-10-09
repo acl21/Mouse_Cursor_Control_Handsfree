@@ -25,7 +25,8 @@ Special thanks to **Adrian Rosebrock** for his amazing blog posts [[2](#referenc
 Order of Execution is as follows:
 
 1. Follow these installation guides - [Numpy](https://pypi.org/project/numpy/), [OpenCV](https://medium.com/@akshaychandra21/f5f721f0d0b3), [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/install.html), [Dlib](https://www.learnopencv.com/install-opencv-3-and-dlib-on-windows-python-only/), [Imutils](https://github.com/jrosebr1/imutils) and install the right versions of the libraries (mentioned above).
-2. `python mouse-cursor-control.py`
+2. Make sure you have the model downloaded. Read the README.txt file inside the model folder for the link. 
+3. `python mouse-cursor-control.py`
 
 Please raise an issue in case of any errors. 
 
