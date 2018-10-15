@@ -1,8 +1,3 @@
-__author__ = "Akshay Chandra Lagandula"
-__copyright__ = "Copyright (C) 2018 Akshay Chandra Lagandula"
-__license__ = "Apache"
-__version__ = "2.0"
-
 from imutils import face_utils
 from utils import *
 import numpy as np
