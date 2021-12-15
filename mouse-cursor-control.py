@@ -1,7 +1,7 @@
 from imutils import face_utils
 from utils import *
 import numpy as np
-import pyautogui as pag
+import pyautogui as pyag
 import imutils
 import dlib
 import cv2
@@ -178,19 +178,19 @@ while True:
         cv2.putText(frame, dir.upper(), (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 0.7, RED_COLOR, 2)
         drag = 18
         if dir == 'right':
-            pag.moveRel(drag, 0)
+            pyag.moveRel(drag, 0)
         elif dir == 'left':
-            pag.moveRel(-drag, 0)
+            pyag.moveRel(-drag, 0)
         elif dir == 'up':
             if SCROLL_MODE:
-                pag.scroll(40)
+                pyag.scroll(40)
             else:
-                pag.moveRel(0, -drag)
+                pyag.moveRel(0, -drag)
         elif dir == 'down':
             if SCROLL_MODE:
-                pag.scroll(-40)
+                pyag.scroll(-40)
             else:
-                pag.moveRel(0, drag)
+                pyag.moveRel(0, drag)
 
     if SCROLL_MODE:
         cv2.putText(frame, 'SCROLL MODE IS ON!', (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.7, RED_COLOR, 2)
