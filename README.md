@@ -4,7 +4,7 @@ This HCI (Human-Computer Interaction) application in Python(3.6) will allow you 
 
 At this point, you are forced to work with the facial movements I chose but I am working on making them configurable. The list of actions include:
 
- - Squinting your eyes (**squint** _(v.)_ - To look with the eyes partly closed, as in bright sunlight)
+ - Squinting your eyes (**squint** - To look with the eyes partly closed, as in bright sunlight)
  - Winking
  - Moving your head around (pitch and yaw)
  - Opening your mouth (a little bit, yes)
